@@ -5,7 +5,9 @@ options=("rock", "paper", "scissor")
 AiScore=0
 playerScore=0
 valid= True
-while True:
+running=True
+
+while running:
     rand=random.choice(options)
     print("---------------------------------------------------")
     while valid:
@@ -41,7 +43,12 @@ while True:
         AiScore+=1
         print(f"score: You: {playerScore} Me: {AiScore}")
     print("---------------------------------------------------")
-
+    print()
+    pref=input("Do u wanna contine(y/N: ").lower()
+    if pref=="y":
+        continue
+    else:
+        running=False;
 if(AiScore > playerScore):
     print("I won yayayyayyayya")
 elif(AiScore<playerScore):
