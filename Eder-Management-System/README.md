@@ -26,19 +26,23 @@ This project is a Digital Eder Management System designed to modernize tradition
 - Documentation: Microsoft Word  
 
 ## Repository Structure  
+## Project Structure
+
+```text
 /Eder-Management-System
 │
 ├── /docs
-│ ├── DBass.docx # Complete project documentation
-│ └── ERD.png # Entity Relationship Diagram
+│   ├── DBass.docx             # Complete project documentation
+│   └── ERD.png                # Entity Relationship Diagram
 │
 ├── /sql
-│ ├── table_definitions.sql # SQL for creating all tables
-│ ├── sample_data.sql # Sample data insertion scripts
-│ ├── test_queries.sql # Basic SELECT queries for testing
-│ └── report_views.sql # Views for generating reports
+│   ├── table_definitions.sql # SQL for creating all tables
+│   ├── sample_data.sql       # Sample data insertion scripts
+│   ├── test_queries.sql      # Basic SELECT queries for testing
+│   └── report_views.sql      # Views for generating reports
 │
-└── README.md # This file
+└── README.md                 # This file
+```
 
 ## Getting Started  
 1. **Prerequisites**:  
