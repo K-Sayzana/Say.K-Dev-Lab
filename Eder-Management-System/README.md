@@ -26,7 +26,6 @@ This project is a Digital Eder Management System designed to modernize tradition
 - Documentation: Microsoft Word  
 
 ## Repository Structure  
-## Project Structure
 
 ```text
 /Eder-Management-System
